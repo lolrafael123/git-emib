@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title></title>
     <meta charset="UTF-8">
@@ -57,6 +56,27 @@
         <div class="row">
             <div class="col-md-6">
                 <h1 class="page-header">Olá a todos</h1>
+
+
+                <form>
+                     <div class="form-group">
+                         <label for="nome">Nome</label>
+                         <input type="text" class="form-control" name="nome" id="nome" placeholder="Coloque seu nome"><br>
+                     </div>
+
+                     <div class="form-group">
+                         <label for="sobrenome">Sobrenome</label>
+                         <input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Coloque seu nome"><br>
+                     </div>
+
+                     
+                     <div class="form-group">
+                         <label for="senha">Senha</label>
+                         <input type="text" class="form-control" name="senha" id="senha" placeholder="Coloque seu nome"><br>
+                     </div>
+
+                    <input type="button" class="btn btn-primary" name="Enviar" value="Enviar">
+                </form>
             </div>
         </div>
     </div>
